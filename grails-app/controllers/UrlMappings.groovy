@@ -7,7 +7,7 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
+        "/"(view:"timedWord/index")
         "500"(view:'/error')
         "404"(view:'/notFound')
     }
